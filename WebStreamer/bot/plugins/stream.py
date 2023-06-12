@@ -77,7 +77,7 @@ async def media_receive_handler(c: Client, m: Message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("😎 STREAM IN WEB/PLAYERS 😎", url=f"https://rushidhar1999.pythonanywhere.com/stream?url={stream_link}")],
+                    [InlineKeyboardButton("😎 STREAM IN WEB/PLAYERS 😎", url=f"https://pythonanywhere.onrender.com/stream?url={stream_link}")],
                     [InlineKeyboardButton("📥 DOWNLOAD 📥", url=stream_link)],
                     [InlineKeyboardButton("❤️ SOURCE CODE ❤️", url="https://github.com/EverythingSuckz/TG-FileStreamBot")]
                 ]
@@ -159,7 +159,7 @@ async def group_media_receive_handler(c: Client, m: Message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("😎 STREAM IN WEB/PLAYERS 😎", url=f"https://rushidhar1999.pythonanywhere.com/stream?url={stream_link}")],
+                    [InlineKeyboardButton("😎 STREAM IN WEB/PLAYERS 😎", url=f"https://pythonanywhere.onrender.com/stream?url={stream_link}")],
                     [InlineKeyboardButton("📥 DOWNLOAD 📥", url=stream_link)],
                     [InlineKeyboardButton("❤️ SOURCE CODE ❤️", url="https://github.com/EverythingSuckz/TG-FileStreamBot")]
                 ]
